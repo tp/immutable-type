@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": ".",
+    "declaration": true,
+    "inlineSourceMap": false,
+    "lib": ["dom", "es2015"],
+    "module": "commonjs",
+    "noEmitOnError": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "build",
+    "paths": {
+      "*": [
+        "*"
+      ]
+    },
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es5",
+    "traceResolution": false
+  },
+  "exclude": [
+    "build",
+    "node_modules"
+  ]
+}
